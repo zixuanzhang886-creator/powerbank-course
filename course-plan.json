@@ -1,0 +1,110 @@
+{
+  "course_name": "充电宝生产全链路课",
+  "topic": "从产品定义到电芯、电子、热管理、模具、注塑、CMF、装配、测试与量产交付的完整生产框架",
+  "audience": "初入消费电子行业、需要与结构/电子/CMF/采购/品质和供应商协作的产品经理",
+  "language": "zh",
+  "lesson_count_target": 10,
+  "exercise_type": "thinking",
+  "output_path": "outputs/充电宝生产全链路课",
+  "visual_scheme": "light",
+  "accent_base": "#e35d34",
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "source_policy": {
+    "field_observation": "来自两家供应商走访，保留项目语境，不外推为行业定律",
+    "verified_principle": "使用标准、材料商、器件商及权威制造资料校正",
+    "to_verify": "转录不清、厂名、价格、节拍、容量上限等以待核实标签呈现"
+  },
+  "lessons": [
+    {
+      "index": 1,
+      "slug": "01-supply-chain",
+      "title": "先看全局：一台充电宝是谁做出来的",
+      "core_concepts": ["产品五层框架", "品牌方与ODM分工", "二级供应商网络", "责任边界", "风险控制"],
+      "presentation": "可点击供应链地图 + 责任矩阵 + 故事卡",
+      "exercise_type_override": null,
+      "status": "done"
+    },
+    {
+      "index": 2,
+      "slug": "02-cells-and-standards",
+      "title": "电芯与安全：所有尺寸和成本的起点",
+      "core_concepts": ["圆柱与软包", "21700与26700", "电芯筛选与PACK", "电芯追溯", "标准与CCC"],
+      "presentation": "尺寸对比器 + 标准时间轴 + 风险情境",
+      "exercise_type_override": null,
+      "status": "done"
+    },
+    {
+      "index": 3,
+      "slug": "03-electrical-architecture",
+      "title": "PRD如何变成电路和BOM",
+      "core_concepts": ["需求到架构", "串并联", "功率与协议", "PCBA与关键器件", "无线充链路"],
+      "presentation": "需求传导图 + 串并联模拟器 + 规格检查表",
+      "exercise_type_override": null,
+      "status": "done"
+    },
+    {
+      "index": 4,
+      "slug": "04-thermal-management",
+      "title": "热往哪里走：功率不是标签，是持续能力",
+      "core_concepts": ["损耗与温升", "NTC位置", "器件和铜厚", "均热与导热", "隔热与用户触感"],
+      "presentation": "热路径剖面 + 损耗计算器 + A/B判断",
+      "exercise_type_override": null,
+      "status": "done"
+    },
+    {
+      "index": 5,
+      "slug": "05-tooling",
+      "title": "模房：产品还没注塑，成本已经被设计出来",
+      "core_concepts": ["模具结构", "CNC/EDM/慢走丝", "滑块与斜顶", "抛光与纹理", "随形冷却"],
+      "presentation": "加工方式匹配器 + 设计代价对照 + 工序管线",
+      "exercise_type_override": null,
+      "status": "done"
+    },
+    {
+      "index": 6,
+      "slug": "06-injection-molding",
+      "title": "注塑：一颗料如何稳定变成一个件",
+      "core_concepts": ["干燥与塑化", "充填/保压/冷却", "顶出与浇口", "常见缺陷", "周期/穴数/产能"],
+      "presentation": "步进成型动画 + 缺陷诊断器 + 日产能计算器",
+      "exercise_type_override": null,
+      "status": "done"
+    },
+    {
+      "index": 7,
+      "slug": "07-cmf-and-finishing",
+      "title": "材料、颜色与表面：好质感不等于贵材料",
+      "core_concepts": ["PC与PC/ABS", "阻燃等级", "配色路线", "模内纹理", "喷涂/电镀/印刷"],
+      "presentation": "CMF决策树 + 工艺成本滑杆 + 缺陷放大矩阵",
+      "exercise_type_override": null,
+      "status": "done"
+    },
+    {
+      "index": 8,
+      "slug": "08-multimaterial-structure",
+      "title": "结构与多材质：每个卡扣都会在模房留下痕迹",
+      "core_concepts": ["双色注塑", "套啤/嵌件成型", "套件装配", "倒扣与分型线", "公差链与防护"],
+      "presentation": "三路线选择顾问 + 公差链模拟器 + 结构风险卡",
+      "exercise_type_override": null,
+      "status": "done"
+    },
+    {
+      "index": 9,
+      "slug": "09-assembly-and-testing",
+      "title": "走一遍组装线：每个工位都在拦一种失效",
+      "core_concepts": ["装配工序", "焊接与锁付", "过程测试", "老化与真机测试", "包装与返修"],
+      "presentation": "可点击工位线 + 删工位风险模拟 + 测试分层",
+      "exercise_type_override": null,
+      "status": "done"
+    },
+    {
+      "index": 10,
+      "slug": "10-quality-cost-delivery",
+      "title": "量产决策：品质、成本、交期是一张联动表",
+      "core_concepts": ["首件/巡检/全检/抽检", "测量与限度样", "MES追溯", "成本与产能", "T0/爬坡/交付"],
+      "presentation": "虚拟验厂 + 成本产能计算器 + 最终评审任务",
+      "exercise_type_override": null,
+      "status": "done"
+    }
+  ]
+}
